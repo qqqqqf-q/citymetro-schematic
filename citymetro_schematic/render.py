@@ -158,6 +158,7 @@ def run(lay, save, title=None, names=None, log=print):
         if deg < 100: return 38.0     # 90deg turn
         return 12.0                   # sharp 135deg turn
     def rounded_path(pts, rmul=1.0):
+        pts = [p for k, p in enumerate(pts) if k == 0 or np.linalg.norm(p - pts[k - 1]) > 1e-6]
         d = 'M%.2f %.2f' % tuple(pts[0])
         for i in range(1, len(pts) - 1):
             p0, p1, p2 = pts[i - 1], pts[i], pts[i + 1]
