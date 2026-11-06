@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "citymetro-schematic"
+version = "0.1.0"
+description = "把《城市与地铁》存档画成官方风格的地铁线路示意图"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "scipy>=1.11",
+  "scikit-image>=0.22",
+  "pypinyin>=0.50",
+]
+
+[project.scripts]
+citymetro-schematic = "citymetro_schematic.cli:main"
+
+[tool.setuptools]
+packages = ["citymetro_schematic"]
+
+[tool.setuptools.package-data]
+citymetro_schematic = ["maps/*.json"]

@@ -1,0 +1,28 @@
+{
+  "city": {
+    "zh": "上海",
+    "en": "Shanghai"
+  },
+  "center": "大世界",
+  "names": {
+    "一大会址": "Site of the 1st CPC National Congress",
+    "外滩": "The Bund",
+    "豫园": "Yuyuan Garden",
+    "大世界": "Great World",
+    "静安寺": "Jing'an Temple",
+    "世博会博物馆": "World Expo Museum",
+    "世博大道": "Expo Ave.",
+    "中华艺术宫": "China Art Museum",
+    "东方体育中心": "Oriental Sports Center",
+    "上海": "Shanghai Railway Station",
+    "上海南": "Shanghai South Railway Station",
+    "浦东机场": "Pudong International Airport",
+    "虹桥火车站": "Hongqiao Railway Station",
+    "上海科技馆": "Shanghai Science & Technology Museum",
+    "上海儿童医学中心": "Shanghai Children's Medical Center",
+    "上海游泳馆": "Shanghai Swimming Center",
+    "上海动物园": "Shanghai Zoo",
+    "十六铺": "Shiliupu",
+    "杨浦东": "Yangpudong"
+  }
+}
