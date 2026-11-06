@@ -16,7 +16,7 @@
 需要 Python 3.10 及以上。
 
 ```sh
-git clone <本仓库地址>
+git clone https://github.com/qqqqqf-q/citymetro-schematic.git
 cd citymetro-schematic
 python -m venv .venv && source .venv/bin/activate
 pip install .
